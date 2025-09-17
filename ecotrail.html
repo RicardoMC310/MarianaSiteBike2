@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>formulário input</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    </head>
+
+    <body>
+        
+    <header class="footer-container">
+    <br>
+     <section class="title">
+           <h1> EcoTrail</h1>
+    </section>
+        
+     <ul class="menu">
+        
+            <li>
+                <a href="ecotrail.html">Cadastro</a>
+            </li>
+
+            <li>
+                <a href="Passeios.html">Passeios</a>
+            </li>
+
+            <li>
+                <a href="Mapas.html">Mapas</a>
+            </li>
+
+
+     </ul>
+    </header>
+    
+    <br>
+    <br>
+
+    <img src="EcoTrail-removebg-preview.png">
+
+        <h1>Cadastro de Cliente</h1>
+        <form name="exemplo_input" action="#" method="POST">
+    
+        <br>
+            
+        <div>
+        <!--Campo de texto-->
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <!--Senha-->
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" name="senha" required><br><br>
+
+        <!--Data-->
+        <label for="data_nascimento">Data:</label>
+        <input type="date" id="data_nascimento" name="data_nascimento" required><br><br>
+
+        <!--Hora-->
+        <label for="hora_nascimento">Hora do Nascimento:</label>
+        <input type="time" id="hora_nascimento" name="hora_nascimento" required><br><br>
+
+        <!--Email-->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <!--telefone-->
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <!--Campo de faixa de valores-->
+        <label for="faixa_valores">Faixa de valores:</label>
+        <input type="range" id="faixa_valores" name="faixa_valores" min="0" max="100" step="1"><br><br>
+
+        <form action="tratamento.html" method="POST">
+
+            <br>
+            Fale sobre você
+            <br>
+            <br>
+            <textarea rows="5" cols="30"></textarea>
+            <br>
+            <br>
+            Estado Civil:
+            <select name="estado_civil">
+                <option value="1"> Solteiro(a) </option>
+                <option value="2"> casado(a) </option>
+                <option value="3"> Divorciado(a) </option>
+                <option value="4"> Viuvo(a) </option>
+            </select> 
+            <br>
+            
+            <br>
+            Sexo: <br><input type="radio" name="sexo" value="Femenino">Femenino<br>
+            <input type="radio" name="sexo" value="Masculino">Masculino<br>
+            <input type="radio" name="sexo" value="Outro_genero">Outro gênero<br>
+            
+            <br>
+            O que gosta mais na nossa loja?:
+            <br>
+            <input type="checkbox" name="Atendimento"> Atendimento <br>
+            <input type="checkbox" name="Qualidade"> Qualidade <br>
+            <input type="checkbox" name=" Respeito"> Respeito <br>
+            <input type="checkbox" name="Acessibilidade"> Acessibilidade <br>
+            <input type="checkbox" name="Preferencia"> Preferencia <br>
+            <input type="checkbox" name="Infraestrutura"> Infraestrutura <br>
+
+            <br>
+            Nível de ensino:
+            <br>
+            <input type="radio" name="ensino" value="Ensino_funfamental">Ensino fundamental<br>
+            <input type="radio" name="ensino" value="Ensino_medio">Ensino médio<br>
+            <input type="radio" name="ensino" value="Faculdade">Faculdade<br>
+            <input type="radio" name="ensino" value="Nenhum">Nenhuma das opções<br>
+
+
+        </form>
+        <br>
+        <!--botão de envio-->
+        <input type="submit" value="Cadastro">
+        <input type="reset" value="Resetar">
+
+        </div>  
+
+        <br>
+        <br>
+
+        <footer class="footer-container">
+        <p>&copy; 2025 - Página desenvolvida pela aluna Mariana</p>
+        </footer>
+
+    </form>
+    </body>
